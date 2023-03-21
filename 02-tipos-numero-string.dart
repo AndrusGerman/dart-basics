@@ -1,7 +1,7 @@
 void main(List<String> args) {
   // String
-  var name = 'Tony';
-  var lastName = 'Stark';
+  String name = 'Tony';
+  final lastName = 'Stark';
   name = 'Peter';
   print(name);
 
