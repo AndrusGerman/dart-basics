@@ -1,8 +1,6 @@
 void main(List<String> args) {
   print('Before the request');
-  httpGet(url: 'http://example.com').then((data) {
-    print(data.toUpperCase());
-  });
+  httpGet(url: 'http://example.com').then(print);
 
   print('After the request');
 }
